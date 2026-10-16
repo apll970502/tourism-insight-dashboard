@@ -1,0 +1,27 @@
+# secrets
+.env
+.env.*
+!.env.example
+.env.local
+
+# dependencies / build
+node_modules/
+.next/
+out/
+build/
+.vercel/
+
+# python (initial preprocessing scripts)
+.venv/
+__pycache__/
+*.pyc
+
+# data / logs
+data/raw/
+logs/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
